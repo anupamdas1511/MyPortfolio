@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(39, 42, 44), rgb(0, 0, 0));
+}
+
+.front{
+    width: 60%;
+    margin: 20%;
+    top: 50%;
+    background: none;
+}
+
+.front h1{
+    font-size: 70px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background: none;
+    text-align: center;
+}
+
+.detail{
+    width: 65%;
+    margin: 15%;
+    top: 50%;
+    border: 10px solid #000;
+    border-radius: 30px;
+    background: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.detail .intro{
+    width: 60%;
+    padding: 25px;
+    font-size: 25px;
+    background: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.detail .intro p{
+    background: none;
+}
+
+.detail .me{
+    background: url("/Static/Images/mypic.jpg") no-repeat;
+    background-size: cover;
+    width: 40%;
+    padding: 25px;
+    border-radius: 20px;
+    /* background: none; */
+}
