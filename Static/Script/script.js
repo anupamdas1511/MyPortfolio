@@ -7,7 +7,7 @@ window.addEventListener("scroll", ()=>{
     const currentScroll = window.pageYOffset;
     if(currentScroll <= checkpiont){
         opacity = 1 - currentScroll/checkpiont;
-        size = (70 - currentScroll/15);
+        size = (100 - currentScroll/12);
     }else{
         opacity = 0;
     }
