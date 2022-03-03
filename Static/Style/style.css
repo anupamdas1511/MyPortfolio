@@ -65,8 +65,13 @@
     height: 70%;
     /* margin: auto; */
     background-color: rgb(94, 96, 236);
-    transform-style: preserve-3d;
-    transform: perspective(1000px);
+    transition: 0.5s;
+    /* transform-style: preserve-3d; */
+    /* transform: perspective(1000px); */
+}
+.section .sec:hover{
+    box-shadow: 0 0 50px rgb(0, 0, 255);
+    transform: rotate(2deg);
 }
 .section .skills{
     margin-left: 25%;
